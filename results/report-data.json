@@ -1,0 +1,1154 @@
+{
+  "manifest": {
+    "started_utc": "2026-10-24T22:02:13.853098+00:00",
+    "kernel": "6.17.0-35-generic",
+    "server_list": "listed_iperf3_servers.json",
+    "requested_destinations": 10,
+    "duration_seconds": 10,
+    "interval_seconds": 0.5,
+    "repetitions": 2,
+    "max_candidate_attempts": 50,
+    "algorithm_orders": [
+      {
+        "destination": "66.35.27.207",
+        "runs": [
+          {
+            "run_id": "d01-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:02:14.015995+00:00"
+          },
+          {
+            "run_id": "d01-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:02:24.866724+00:00"
+          },
+          {
+            "run_id": "d01-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:02:35.689708+00:00"
+          },
+          {
+            "run_id": "d01-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:02:46.475473+00:00"
+          },
+          {
+            "run_id": "d01-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:02:57.301713+00:00"
+          },
+          {
+            "run_id": "d01-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:03:08.111445+00:00"
+          },
+          {
+            "run_id": "d01-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:03:18.948434+00:00"
+          },
+          {
+            "run_id": "d01-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:03:29.759327+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "204.155.243.172",
+        "runs": [
+          {
+            "run_id": "d02-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:03:40.578558+00:00"
+          },
+          {
+            "run_id": "d02-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:03:51.412364+00:00"
+          },
+          {
+            "run_id": "d02-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:04:02.140178+00:00"
+          },
+          {
+            "run_id": "d02-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:04:12.871839+00:00"
+          },
+          {
+            "run_id": "d02-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:04:23.692333+00:00"
+          },
+          {
+            "run_id": "d02-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:04:34.467279+00:00"
+          },
+          {
+            "run_id": "d02-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:04:45.193726+00:00"
+          },
+          {
+            "run_id": "d02-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:04:55.998731+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "iperf3-vie-at.alwyzon.net",
+        "runs": [
+          {
+            "run_id": "d04-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:05:29.880494+00:00"
+          },
+          {
+            "run_id": "d04-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:05:41.415033+00:00"
+          },
+          {
+            "run_id": "d04-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:05:52.981862+00:00"
+          },
+          {
+            "run_id": "d04-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:06:04.381171+00:00"
+          },
+          {
+            "run_id": "d04-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:06:15.766304+00:00"
+          },
+          {
+            "run_id": "d04-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:06:27.263044+00:00"
+          },
+          {
+            "run_id": "d04-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:06:38.786209+00:00"
+          },
+          {
+            "run_id": "d04-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:06:50.356838+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "148.230.45.213",
+        "runs": [
+          {
+            "run_id": "d05-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:07:01.799562+00:00"
+          },
+          {
+            "run_id": "d05-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:07:13.268853+00:00"
+          },
+          {
+            "run_id": "d05-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:07:24.744593+00:00"
+          },
+          {
+            "run_id": "d05-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:07:36.241512+00:00"
+          },
+          {
+            "run_id": "d05-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:07:47.624893+00:00"
+          },
+          {
+            "run_id": "d05-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:07:59.045455+00:00"
+          },
+          {
+            "run_id": "d05-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:08:10.445983+00:00"
+          },
+          {
+            "run_id": "d05-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:08:21.867918+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "yyc-speedtest.xplore.ca",
+        "runs": [
+          {
+            "run_id": "d06-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:08:32.998063+00:00"
+          },
+          {
+            "run_id": "d06-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:08:44.010950+00:00"
+          },
+          {
+            "run_id": "d06-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:08:55.019113+00:00"
+          },
+          {
+            "run_id": "d06-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:09:05.936402+00:00"
+          },
+          {
+            "run_id": "d06-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:09:16.912645+00:00"
+          },
+          {
+            "run_id": "d06-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:09:27.870648+00:00"
+          },
+          {
+            "run_id": "d06-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:09:38.870437+00:00"
+          },
+          {
+            "run_id": "d06-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:09:49.902571+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "dal.speedtest.clouvider.net",
+        "runs": [
+          {
+            "run_id": "d07-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:10:01.054734+00:00"
+          },
+          {
+            "run_id": "d07-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:10:11.914727+00:00"
+          },
+          {
+            "run_id": "d07-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:10:22.735039+00:00"
+          },
+          {
+            "run_id": "d07-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:10:33.653785+00:00"
+          },
+          {
+            "run_id": "d07-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:10:44.578684+00:00"
+          },
+          {
+            "run_id": "d07-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:10:55.382234+00:00"
+          },
+          {
+            "run_id": "d07-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:11:06.274974+00:00"
+          },
+          {
+            "run_id": "d07-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:11:17.171713+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "speedtest.hiper.dk",
+        "runs": [
+          {
+            "run_id": "d08-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:11:28.667141+00:00"
+          },
+          {
+            "run_id": "d08-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:11:40.021916+00:00"
+          },
+          {
+            "run_id": "d08-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:11:51.511821+00:00"
+          },
+          {
+            "run_id": "d08-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:12:03.082692+00:00"
+          },
+          {
+            "run_id": "d08-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:12:14.526405+00:00"
+          },
+          {
+            "run_id": "d08-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:12:25.946025+00:00"
+          },
+          {
+            "run_id": "d08-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:12:37.392892+00:00"
+          },
+          {
+            "run_id": "d08-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:12:48.857705+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "23.249.54.234",
+        "runs": [
+          {
+            "run_id": "d09-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:12:59.846925+00:00"
+          },
+          {
+            "run_id": "d09-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:13:10.765900+00:00"
+          },
+          {
+            "run_id": "d09-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:13:21.693257+00:00"
+          },
+          {
+            "run_id": "d09-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:13:32.525624+00:00"
+          },
+          {
+            "run_id": "d09-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:13:43.387232+00:00"
+          },
+          {
+            "run_id": "d09-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:13:54.252342+00:00"
+          },
+          {
+            "run_id": "d09-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:14:05.098291+00:00"
+          },
+          {
+            "run_id": "d09-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:14:15.968006+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "96.45.44.87",
+        "runs": [
+          {
+            "run_id": "d10-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:14:27.761951+00:00"
+          },
+          {
+            "run_id": "d10-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:14:39.731596+00:00"
+          },
+          {
+            "run_id": "d10-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:14:51.586718+00:00"
+          },
+          {
+            "run_id": "d10-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:15:03.541213+00:00"
+          },
+          {
+            "run_id": "d10-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:15:15.495436+00:00"
+          },
+          {
+            "run_id": "d10-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:15:27.368645+00:00"
+          },
+          {
+            "run_id": "d10-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:15:39.356676+00:00"
+          },
+          {
+            "run_id": "d10-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:15:51.440815+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "speedtest.xmission.com",
+        "runs": [
+          {
+            "run_id": "d11-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:16:02.880149+00:00"
+          },
+          {
+            "run_id": "d11-r1-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:16:13.866395+00:00"
+          },
+          {
+            "run_id": "d11-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:16:24.936732+00:00"
+          },
+          {
+            "run_id": "d11-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:16:35.909994+00:00"
+          },
+          {
+            "run_id": "d11-r2-kovacevic",
+            "algorithm": "kovacevic",
+            "started_utc": "2026-10-24T22:16:46.871709+00:00"
+          },
+          {
+            "run_id": "d11-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-24T22:16:57.893941+00:00"
+          },
+          {
+            "run_id": "d11-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-24T22:17:08.891819+00:00"
+          },
+          {
+            "run_id": "d11-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-24T22:17:19.892272+00:00"
+          }
+        ]
+      }
+    ],
+    "complete_destinations": [
+      {
+        "host": "66.35.27.207",
+        "port": 30008,
+        "site": "Dallas",
+        "country": "US"
+      },
+      {
+        "host": "204.155.243.172",
+        "port": 30005,
+        "site": "Toronto",
+        "country": "CA"
+      },
+      {
+        "host": "iperf3-vie-at.alwyzon.net",
+        "port": 5205,
+        "site": "Vienna",
+        "country": "AT"
+      },
+      {
+        "host": "148.230.45.213",
+        "port": 30009,
+        "site": "Madrid",
+        "country": "ES"
+      },
+      {
+        "host": "yyc-speedtest.xplore.ca",
+        "port": 8084,
+        "site": "Woodstock",
+        "country": "CA"
+      },
+      {
+        "host": "dal.speedtest.clouvider.net",
+        "port": 5203,
+        "site": "Dallas",
+        "country": "US"
+      },
+      {
+        "host": "speedtest.hiper.dk",
+        "port": 5203,
+        "site": "Copenhagen",
+        "country": "DK"
+      },
+      {
+        "host": "23.249.54.234",
+        "port": 30005,
+        "site": "Miami",
+        "country": "US"
+      },
+      {
+        "host": "96.45.44.87",
+        "port": 30005,
+        "site": "Sydney",
+        "country": "AU"
+      },
+      {
+        "host": "speedtest.xmission.com",
+        "port": 5203,
+        "site": "Salt Lake",
+        "country": "US"
+      }
+    ],
+    "failures": [
+      {
+        "candidate": {
+          "host": "114.230.93.99",
+          "port": 5218,
+          "site": "Nanjing",
+          "country": "CN"
+        },
+        "reason": "d03-r1-kovacevic: data socket made no progress"
+      }
+    ],
+    "attempted_candidates": 11,
+    "successful_destinations": 10,
+    "shortfall": 0
+  },
+  "summary": [
+    {
+      "destination": "66.35.27.207",
+      "port": 30008,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 50.727285402521524,
+      "goodput_median_mbps": 80.27158013642266,
+      "goodput_mean_mbps": 77.08103209089165,
+      "goodput_p95_mbps": 90.21868475087413,
+      "rtt_median_ms": 53.069,
+      "retransmissions": 0
+    },
+    {
+      "destination": "66.35.27.207",
+      "port": 30008,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 29.009509402252533,
+      "goodput_median_mbps": 57.07284585461195,
+      "goodput_mean_mbps": 60.183353692476175,
+      "goodput_p95_mbps": 89.22688775130709,
+      "rtt_median_ms": 58.519,
+      "retransmissions": 0
+    },
+    {
+      "destination": "66.35.27.207",
+      "port": 30008,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 37.57955464956775,
+      "goodput_median_mbps": 76.01393402245479,
+      "goodput_mean_mbps": 73.34826123864966,
+      "goodput_p95_mbps": 95.98091283926571,
+      "rtt_median_ms": 66.4585,
+      "retransmissions": 3
+    },
+    {
+      "destination": "66.35.27.207",
+      "port": 30008,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 35.237093991133335,
+      "goodput_median_mbps": 73.18770769633008,
+      "goodput_mean_mbps": 69.47450504840734,
+      "goodput_p95_mbps": 92.23994992681033,
+      "rtt_median_ms": 45.7775,
+      "retransmissions": 0
+    },
+    {
+      "destination": "204.155.243.172",
+      "port": 30005,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 32.089542027598945,
+      "goodput_median_mbps": 80.39276084640906,
+      "goodput_mean_mbps": 81.68194088576129,
+      "goodput_p95_mbps": 120.10363119517041,
+      "rtt_median_ms": 39.969,
+      "retransmissions": 1
+    },
+    {
+      "destination": "204.155.243.172",
+      "port": 30005,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 35.31724856786748,
+      "goodput_median_mbps": 102.74488112091879,
+      "goodput_mean_mbps": 93.99618485641754,
+      "goodput_p95_mbps": 125.07220206536394,
+      "rtt_median_ms": 43.925,
+      "retransmissions": 0
+    },
+    {
+      "destination": "204.155.243.172",
+      "port": 30005,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 39.645059082937735,
+      "goodput_median_mbps": 91.31621296590778,
+      "goodput_mean_mbps": 82.64086093828476,
+      "goodput_p95_mbps": 118.25047445650135,
+      "rtt_median_ms": 55.332499999999996,
+      "retransmissions": 3
+    },
+    {
+      "destination": "204.155.243.172",
+      "port": 30005,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 54.43743086172356,
+      "goodput_median_mbps": 90.40269098477756,
+      "goodput_mean_mbps": 90.27677322344691,
+      "goodput_p95_mbps": 115.4713240815301,
+      "rtt_median_ms": 34.58,
+      "retransmissions": 0
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "port": 5205,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 0.6846978874532839,
+      "goodput_median_mbps": 106.30089538525543,
+      "goodput_mean_mbps": 95.24134710406808,
+      "goodput_p95_mbps": 122.62768879194041,
+      "rtt_median_ms": 162.26749999999998,
+      "retransmissions": 0
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "port": 5205,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 1.4845076842302107,
+      "goodput_median_mbps": 90.00615893581673,
+      "goodput_mean_mbps": 86.65244087830636,
+      "goodput_p95_mbps": 125.60300803191541,
+      "rtt_median_ms": 136.0755,
+      "retransmissions": 0
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "port": 5205,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 1.5975600578270215,
+      "goodput_median_mbps": 87.26480122027083,
+      "goodput_mean_mbps": 79.81019826806283,
+      "goodput_p95_mbps": 112.97058352404648,
+      "rtt_median_ms": 157.137,
+      "retransmissions": 19
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "port": 5205,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 1.3473223437625885,
+      "goodput_median_mbps": 84.27351514393965,
+      "goodput_mean_mbps": 76.21893434133347,
+      "goodput_p95_mbps": 102.63587525623983,
+      "rtt_median_ms": 134.28750000000002,
+      "retransmissions": 0
+    },
+    {
+      "destination": "148.230.45.213",
+      "port": 30009,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 0.23140312569512278,
+      "goodput_median_mbps": 112.642887902892,
+      "goodput_mean_mbps": 95.63551075088036,
+      "goodput_p95_mbps": 130.87347160210678,
+      "rtt_median_ms": 150.0325,
+      "retransmissions": 0
+    },
+    {
+      "destination": "148.230.45.213",
+      "port": 30009,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 1.6005713686730612,
+      "goodput_median_mbps": 41.1253797852719,
+      "goodput_mean_mbps": 51.937895927899405,
+      "goodput_p95_mbps": 116.74758739969485,
+      "rtt_median_ms": 126.5735,
+      "retransmissions": 0
+    },
+    {
+      "destination": "148.230.45.213",
+      "port": 30009,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 1.6005169460121986,
+      "goodput_median_mbps": 111.9849613465817,
+      "goodput_mean_mbps": 100.90933880683205,
+      "goodput_p95_mbps": 125.96363921179453,
+      "rtt_median_ms": 146.7885,
+      "retransmissions": 0
+    },
+    {
+      "destination": "148.230.45.213",
+      "port": 30009,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 0.9494097171092593,
+      "goodput_median_mbps": 109.6463586640548,
+      "goodput_mean_mbps": 96.55077061151539,
+      "goodput_p95_mbps": 125.1358172361502,
+      "rtt_median_ms": 132.5555,
+      "retransmissions": 0
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "port": 8084,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 42.5291628699329,
+      "goodput_median_mbps": 103.9670092416957,
+      "goodput_mean_mbps": 99.82718234021814,
+      "goodput_p95_mbps": 113.0773871747663,
+      "rtt_median_ms": 55.8915,
+      "retransmissions": 0
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "port": 8084,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 49.992040657471954,
+      "goodput_median_mbps": 109.50174344861762,
+      "goodput_mean_mbps": 105.48739172801857,
+      "goodput_p95_mbps": 121.64237600424366,
+      "rtt_median_ms": 64.5145,
+      "retransmissions": 0
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "port": 8084,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 48.34267494015061,
+      "goodput_median_mbps": 107.62181074260604,
+      "goodput_mean_mbps": 104.23873272190437,
+      "goodput_p95_mbps": 129.11117405393293,
+      "rtt_median_ms": 74.41900000000001,
+      "retransmissions": 2
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "port": 8084,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 40.33769460187107,
+      "goodput_median_mbps": 105.74470051661868,
+      "goodput_mean_mbps": 104.11477500445584,
+      "goodput_p95_mbps": 120.44536635497651,
+      "rtt_median_ms": 57.333,
+      "retransmissions": 0
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "port": 5203,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 19.191016891545708,
+      "goodput_median_mbps": 56.64415137452623,
+      "goodput_mean_mbps": 62.63739506458927,
+      "goodput_p95_mbps": 104.30173107482118,
+      "rtt_median_ms": 38.611999999999995,
+      "retransmissions": 1
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "port": 5203,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 45.92654348374274,
+      "goodput_median_mbps": 104.32297171984584,
+      "goodput_mean_mbps": 102.14640924193618,
+      "goodput_p95_mbps": 126.43500461433723,
+      "rtt_median_ms": 49.548,
+      "retransmissions": 0
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "port": 5203,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 65.59572915351659,
+      "goodput_median_mbps": 104.52565815445212,
+      "goodput_mean_mbps": 101.85100970293006,
+      "goodput_p95_mbps": 116.62762991560272,
+      "rtt_median_ms": 58.2215,
+      "retransmissions": 2
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "port": 5203,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 44.117296263190454,
+      "goodput_median_mbps": 91.57683432707333,
+      "goodput_mean_mbps": 90.20762215561848,
+      "goodput_p95_mbps": 106.90970744734997,
+      "rtt_median_ms": 37.7505,
+      "retransmissions": 1
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "port": 5203,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 1.5975546482355085,
+      "goodput_median_mbps": 102.95562434656594,
+      "goodput_mean_mbps": 95.06099708324966,
+      "goodput_p95_mbps": 123.29218669950315,
+      "rtt_median_ms": 132.50650000000002,
+      "retransmissions": 0
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "port": 5203,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 1.5062750251637897,
+      "goodput_median_mbps": 92.63887137770428,
+      "goodput_mean_mbps": 67.76229005290624,
+      "goodput_p95_mbps": 118.58038266158941,
+      "rtt_median_ms": 121.6885,
+      "retransmissions": 160
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "port": 5203,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 1.5975271570847545,
+      "goodput_median_mbps": 99.65716432349737,
+      "goodput_mean_mbps": 89.83280826505093,
+      "goodput_p95_mbps": 119.58036133680797,
+      "rtt_median_ms": 145.599,
+      "retransmissions": 0
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "port": 5203,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 1.5747578929293033,
+      "goodput_median_mbps": 103.56561683420885,
+      "goodput_mean_mbps": 93.4870379265469,
+      "goodput_p95_mbps": 117.36208623833977,
+      "rtt_median_ms": 124.74799999999999,
+      "retransmissions": 0
+    },
+    {
+      "destination": "23.249.54.234",
+      "port": 30005,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 46.43927659975071,
+      "goodput_median_mbps": 102.28084300590277,
+      "goodput_mean_mbps": 96.79672240793204,
+      "goodput_p95_mbps": 112.40488823762149,
+      "rtt_median_ms": 52.588,
+      "retransmissions": 1
+    },
+    {
+      "destination": "23.249.54.234",
+      "port": 30005,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 62.98787766541565,
+      "goodput_median_mbps": 113.75718857531722,
+      "goodput_mean_mbps": 112.2683871205927,
+      "goodput_p95_mbps": 136.54096339666185,
+      "rtt_median_ms": 63.016999999999996,
+      "retransmissions": 0
+    },
+    {
+      "destination": "23.249.54.234",
+      "port": 30005,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 6.431845997425886,
+      "goodput_median_mbps": 110.80409616896532,
+      "goodput_mean_mbps": 105.07092768915685,
+      "goodput_p95_mbps": 126.12007828107146,
+      "rtt_median_ms": 65.2705,
+      "retransmissions": 2
+    },
+    {
+      "destination": "23.249.54.234",
+      "port": 30005,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 46.76785750008029,
+      "goodput_median_mbps": 106.37900839015006,
+      "goodput_mean_mbps": 104.42898538290223,
+      "goodput_p95_mbps": 122.76982247784606,
+      "rtt_median_ms": 52.7875,
+      "retransmissions": 0
+    },
+    {
+      "destination": "96.45.44.87",
+      "port": 30005,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 0.6941961130002927,
+      "goodput_median_mbps": 105.24242348788852,
+      "goodput_mean_mbps": 89.39082962623749,
+      "goodput_p95_mbps": 111.1299144529622,
+      "rtt_median_ms": 203.2935,
+      "retransmissions": 0
+    },
+    {
+      "destination": "96.45.44.87",
+      "port": 30005,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 0.5094286274032156,
+      "goodput_median_mbps": 34.516994185433916,
+      "goodput_mean_mbps": 52.03267275572528,
+      "goodput_p95_mbps": 108.73084102022491,
+      "rtt_median_ms": 198.775,
+      "retransmissions": 0
+    },
+    {
+      "destination": "96.45.44.87",
+      "port": 30005,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 0.6942970105422037,
+      "goodput_median_mbps": 101.05955439653951,
+      "goodput_mean_mbps": 85.3207093653996,
+      "goodput_p95_mbps": 110.51440733192048,
+      "rtt_median_ms": 205.875,
+      "retransmissions": 0
+    },
+    {
+      "destination": "96.45.44.87",
+      "port": 30005,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 0.7174023112950633,
+      "goodput_median_mbps": 85.6405745443194,
+      "goodput_mean_mbps": 75.78157210826593,
+      "goodput_p95_mbps": 108.6375968314751,
+      "rtt_median_ms": 200.478,
+      "retransmissions": 1
+    },
+    {
+      "destination": "speedtest.xmission.com",
+      "port": 5203,
+      "algorithm": "kovacevic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 20.47365312777999,
+      "goodput_median_mbps": 107.72296918846394,
+      "goodput_mean_mbps": 101.99471486446132,
+      "goodput_p95_mbps": 113.02994770807013,
+      "rtt_median_ms": 76.8595,
+      "retransmissions": 0
+    },
+    {
+      "destination": "speedtest.xmission.com",
+      "port": 5203,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 22.97005388271831,
+      "goodput_median_mbps": 104.98265978146796,
+      "goodput_mean_mbps": 102.10051469922625,
+      "goodput_p95_mbps": 129.58469600536085,
+      "rtt_median_ms": 78.5925,
+      "retransmissions": 0
+    },
+    {
+      "destination": "speedtest.xmission.com",
+      "port": 5203,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 29.351048706749015,
+      "goodput_median_mbps": 110.5625162776429,
+      "goodput_mean_mbps": 106.31014425372294,
+      "goodput_p95_mbps": 131.11695010797672,
+      "rtt_median_ms": 102.6225,
+      "retransmissions": 1
+    },
+    {
+      "destination": "speedtest.xmission.com",
+      "port": 5203,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 40,
+      "goodput_min_mbps": 22.491658152120873,
+      "goodput_median_mbps": 105.17475796073919,
+      "goodput_mean_mbps": 102.22020939914796,
+      "goodput_p95_mbps": 121.86778716506956,
+      "rtt_median_ms": 67.514,
+      "retransmissions": 2
+    }
+  ],
+  "rtt_table": [
+    {
+      "destination": "66.35.27.207",
+      "kovacevic": 53.069,
+      "cubic": 58.519,
+      "reno": 66.4585,
+      "bbr": 45.7775
+    },
+    {
+      "destination": "204.155.243.172",
+      "kovacevic": 39.969,
+      "cubic": 43.925,
+      "reno": 55.332499999999996,
+      "bbr": 34.58
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "kovacevic": 162.26749999999998,
+      "cubic": 136.0755,
+      "reno": 157.137,
+      "bbr": 134.28750000000002
+    },
+    {
+      "destination": "148.230.45.213",
+      "kovacevic": 150.0325,
+      "cubic": 126.5735,
+      "reno": 146.7885,
+      "bbr": 132.5555
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "kovacevic": 55.8915,
+      "cubic": 64.5145,
+      "reno": 74.41900000000001,
+      "bbr": 57.333
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "kovacevic": 38.611999999999995,
+      "cubic": 49.548,
+      "reno": 58.2215,
+      "bbr": 37.7505
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "kovacevic": 132.50650000000002,
+      "cubic": 121.6885,
+      "reno": 145.599,
+      "bbr": 124.74799999999999
+    },
+    {
+      "destination": "23.249.54.234",
+      "kovacevic": 52.588,
+      "cubic": 63.016999999999996,
+      "reno": 65.2705,
+      "bbr": 52.7875
+    },
+    {
+      "destination": "96.45.44.87",
+      "kovacevic": 203.2935,
+      "cubic": 198.775,
+      "reno": 205.875,
+      "bbr": 200.478
+    },
+    {
+      "destination": "speedtest.xmission.com",
+      "kovacevic": 76.8595,
+      "cubic": 78.5925,
+      "reno": 102.6225,
+      "bbr": 67.514
+    }
+  ],
+  "plots": {
+    "throughput": [
+      "throughput-1.pdf",
+      "throughput-2.pdf"
+    ],
+    "kovacevic_time_series": "kovacevic-time-series.pdf",
+    "kovacevic_scatter": "kovacevic-scatter.pdf",
+    "cubic_time_series": "cubic-time-series.pdf",
+    "cubic_scatter": "cubic-scatter.pdf",
+    "reno_time_series": "reno-time-series.pdf",
+    "reno_scatter": "reno-scatter.pdf",
+    "bbr_time_series": "bbr-time-series.pdf",
+    "bbr_scatter": "bbr-scatter.pdf"
+  },
+  "representative": {
+    "host": "speedtest.hiper.dk",
+    "port": 5203,
+    "site": "Copenhagen",
+    "country": "DK"
+  }
+}

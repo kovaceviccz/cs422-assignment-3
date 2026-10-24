@@ -1,0 +1,538 @@
+{
+  "started_utc": "2026-10-24T22:02:13.853098+00:00",
+  "kernel": "6.17.0-35-generic",
+  "server_list": "listed_iperf3_servers.json",
+  "requested_destinations": 10,
+  "duration_seconds": 10,
+  "interval_seconds": 0.5,
+  "repetitions": 2,
+  "max_candidate_attempts": 50,
+  "algorithm_orders": [
+    {
+      "destination": "66.35.27.207",
+      "runs": [
+        {
+          "run_id": "d01-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:02:14.015995+00:00"
+        },
+        {
+          "run_id": "d01-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:02:24.866724+00:00"
+        },
+        {
+          "run_id": "d01-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:02:35.689708+00:00"
+        },
+        {
+          "run_id": "d01-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:02:46.475473+00:00"
+        },
+        {
+          "run_id": "d01-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:02:57.301713+00:00"
+        },
+        {
+          "run_id": "d01-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:03:08.111445+00:00"
+        },
+        {
+          "run_id": "d01-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:03:18.948434+00:00"
+        },
+        {
+          "run_id": "d01-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:03:29.759327+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "204.155.243.172",
+      "runs": [
+        {
+          "run_id": "d02-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:03:40.578558+00:00"
+        },
+        {
+          "run_id": "d02-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:03:51.412364+00:00"
+        },
+        {
+          "run_id": "d02-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:04:02.140178+00:00"
+        },
+        {
+          "run_id": "d02-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:04:12.871839+00:00"
+        },
+        {
+          "run_id": "d02-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:04:23.692333+00:00"
+        },
+        {
+          "run_id": "d02-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:04:34.467279+00:00"
+        },
+        {
+          "run_id": "d02-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:04:45.193726+00:00"
+        },
+        {
+          "run_id": "d02-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:04:55.998731+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "runs": [
+        {
+          "run_id": "d04-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:05:29.880494+00:00"
+        },
+        {
+          "run_id": "d04-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:05:41.415033+00:00"
+        },
+        {
+          "run_id": "d04-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:05:52.981862+00:00"
+        },
+        {
+          "run_id": "d04-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:06:04.381171+00:00"
+        },
+        {
+          "run_id": "d04-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:06:15.766304+00:00"
+        },
+        {
+          "run_id": "d04-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:06:27.263044+00:00"
+        },
+        {
+          "run_id": "d04-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:06:38.786209+00:00"
+        },
+        {
+          "run_id": "d04-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:06:50.356838+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "148.230.45.213",
+      "runs": [
+        {
+          "run_id": "d05-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:07:01.799562+00:00"
+        },
+        {
+          "run_id": "d05-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:07:13.268853+00:00"
+        },
+        {
+          "run_id": "d05-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:07:24.744593+00:00"
+        },
+        {
+          "run_id": "d05-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:07:36.241512+00:00"
+        },
+        {
+          "run_id": "d05-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:07:47.624893+00:00"
+        },
+        {
+          "run_id": "d05-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:07:59.045455+00:00"
+        },
+        {
+          "run_id": "d05-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:08:10.445983+00:00"
+        },
+        {
+          "run_id": "d05-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:08:21.867918+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "runs": [
+        {
+          "run_id": "d06-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:08:32.998063+00:00"
+        },
+        {
+          "run_id": "d06-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:08:44.010950+00:00"
+        },
+        {
+          "run_id": "d06-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:08:55.019113+00:00"
+        },
+        {
+          "run_id": "d06-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:09:05.936402+00:00"
+        },
+        {
+          "run_id": "d06-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:09:16.912645+00:00"
+        },
+        {
+          "run_id": "d06-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:09:27.870648+00:00"
+        },
+        {
+          "run_id": "d06-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:09:38.870437+00:00"
+        },
+        {
+          "run_id": "d06-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:09:49.902571+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "runs": [
+        {
+          "run_id": "d07-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:10:01.054734+00:00"
+        },
+        {
+          "run_id": "d07-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:10:11.914727+00:00"
+        },
+        {
+          "run_id": "d07-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:10:22.735039+00:00"
+        },
+        {
+          "run_id": "d07-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:10:33.653785+00:00"
+        },
+        {
+          "run_id": "d07-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:10:44.578684+00:00"
+        },
+        {
+          "run_id": "d07-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:10:55.382234+00:00"
+        },
+        {
+          "run_id": "d07-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:11:06.274974+00:00"
+        },
+        {
+          "run_id": "d07-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:11:17.171713+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "runs": [
+        {
+          "run_id": "d08-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:11:28.667141+00:00"
+        },
+        {
+          "run_id": "d08-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:11:40.021916+00:00"
+        },
+        {
+          "run_id": "d08-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:11:51.511821+00:00"
+        },
+        {
+          "run_id": "d08-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:12:03.082692+00:00"
+        },
+        {
+          "run_id": "d08-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:12:14.526405+00:00"
+        },
+        {
+          "run_id": "d08-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:12:25.946025+00:00"
+        },
+        {
+          "run_id": "d08-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:12:37.392892+00:00"
+        },
+        {
+          "run_id": "d08-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:12:48.857705+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "23.249.54.234",
+      "runs": [
+        {
+          "run_id": "d09-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:12:59.846925+00:00"
+        },
+        {
+          "run_id": "d09-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:13:10.765900+00:00"
+        },
+        {
+          "run_id": "d09-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:13:21.693257+00:00"
+        },
+        {
+          "run_id": "d09-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:13:32.525624+00:00"
+        },
+        {
+          "run_id": "d09-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:13:43.387232+00:00"
+        },
+        {
+          "run_id": "d09-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:13:54.252342+00:00"
+        },
+        {
+          "run_id": "d09-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:14:05.098291+00:00"
+        },
+        {
+          "run_id": "d09-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:14:15.968006+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "96.45.44.87",
+      "runs": [
+        {
+          "run_id": "d10-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:14:27.761951+00:00"
+        },
+        {
+          "run_id": "d10-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:14:39.731596+00:00"
+        },
+        {
+          "run_id": "d10-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:14:51.586718+00:00"
+        },
+        {
+          "run_id": "d10-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:15:03.541213+00:00"
+        },
+        {
+          "run_id": "d10-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:15:15.495436+00:00"
+        },
+        {
+          "run_id": "d10-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:15:27.368645+00:00"
+        },
+        {
+          "run_id": "d10-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:15:39.356676+00:00"
+        },
+        {
+          "run_id": "d10-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:15:51.440815+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "speedtest.xmission.com",
+      "runs": [
+        {
+          "run_id": "d11-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:16:02.880149+00:00"
+        },
+        {
+          "run_id": "d11-r1-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:16:13.866395+00:00"
+        },
+        {
+          "run_id": "d11-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:16:24.936732+00:00"
+        },
+        {
+          "run_id": "d11-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:16:35.909994+00:00"
+        },
+        {
+          "run_id": "d11-r2-kovacevic",
+          "algorithm": "kovacevic",
+          "started_utc": "2026-10-24T22:16:46.871709+00:00"
+        },
+        {
+          "run_id": "d11-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-24T22:16:57.893941+00:00"
+        },
+        {
+          "run_id": "d11-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-24T22:17:08.891819+00:00"
+        },
+        {
+          "run_id": "d11-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-24T22:17:19.892272+00:00"
+        }
+      ]
+    }
+  ],
+  "complete_destinations": [
+    {
+      "host": "66.35.27.207",
+      "port": 30008,
+      "site": "Dallas",
+      "country": "US"
+    },
+    {
+      "host": "204.155.243.172",
+      "port": 30005,
+      "site": "Toronto",
+      "country": "CA"
+    },
+    {
+      "host": "iperf3-vie-at.alwyzon.net",
+      "port": 5205,
+      "site": "Vienna",
+      "country": "AT"
+    },
+    {
+      "host": "148.230.45.213",
+      "port": 30009,
+      "site": "Madrid",
+      "country": "ES"
+    },
+    {
+      "host": "yyc-speedtest.xplore.ca",
+      "port": 8084,
+      "site": "Woodstock",
+      "country": "CA"
+    },
+    {
+      "host": "dal.speedtest.clouvider.net",
+      "port": 5203,
+      "site": "Dallas",
+      "country": "US"
+    },
+    {
+      "host": "speedtest.hiper.dk",
+      "port": 5203,
+      "site": "Copenhagen",
+      "country": "DK"
+    },
+    {
+      "host": "23.249.54.234",
+      "port": 30005,
+      "site": "Miami",
+      "country": "US"
+    },
+    {
+      "host": "96.45.44.87",
+      "port": 30005,
+      "site": "Sydney",
+      "country": "AU"
+    },
+    {
+      "host": "speedtest.xmission.com",
+      "port": 5203,
+      "site": "Salt Lake",
+      "country": "US"
+    }
+  ],
+  "failures": [
+    {
+      "candidate": {
+        "host": "114.230.93.99",
+        "port": 5218,
+        "site": "Nanjing",
+        "country": "CN"
+      },
+      "reason": "d03-r1-kovacevic: data socket made no progress"
+    }
+  ],
+  "attempted_candidates": 11,
+  "successful_destinations": 10,
+  "shortfall": 0
+}
